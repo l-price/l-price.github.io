@@ -1,0 +1,139 @@
+
+
+
+body {
+font-size:20px;
+background:black;
+/* background:url("images/background-crop"); */
+margin:0;
+}
+
+
+/*layout*/
+
+#title-picture {
+	padding-left:50px;
+}
+
+#wrapper {
+	padding: 1em 0;
+	width:100%;
+	background:white;
+}
+#footer{
+	font-color:white; ????
+}
+#top,
+#container,
+#footer {
+	margin:0 auto;
+	width:88%;
+	max-width:720px;
+}
+
+#title {
+	margin:0 auto;
+	width:88%;
+	max-width:720px;
+	/*background-image: src="images/300/ak47300.png";*/
+}
+
+/*Navigation*/
+
+
+nav ul {
+	float: left;
+	padding:0;
+}
+
+a{
+color:black;
+}
+
+nav ul li {
+	float:left;
+	margin:0 0.5em 0 0;
+	list-style:none;
+	padding-top:20px;
+}
+
+nav ul li a {
+	text-decoration:none;
+	padding: .5em 1em;
+	background:#ffb400;
+	border-radius:5px;
+}
+
+nav ul li a:hover {
+	background:magenta;
+} 
+
+/* galleries
+--------------------------------------------*/
+.gallery {
+	padding:0;
+}
+
+.gallery li {
+list-style:none;
+float:left;
+margin:3em 3em 0 0;
+
+}
+
+.gallery img {
+		outline:0px solid blue; /*doesn't do anything atm*/
+}
+
+.gallery img:hover {
+	outline:2px solid orange; /*doesn't do anything atm*/
+}
+
+.gallery a {
+	display:block;
+}
+
+
+.gallery img {
+	display:block;
+}
+
+
+
+.gallery li div.item {
+	position:relative;
+	text-align:center;
+	overflow:hidden;
+}
+
+
+.gallery li div.item span {
+	position:absolute;
+	background:rgba(255,180,0,0.8);
+	padding: 1em 0;
+	bottom:-100px;
+	left:0;
+	width: 100%;
+	transition: .2s all;
+}
+
+
+.gallery li div.item:hover span {
+	bottom:0;
+}
+
+/* Misc
+-----------------------------------------*/
+
+.clearfix:after {
+	content:".";
+	display:block;
+	height: 0;
+	clear:both;
+	visibility:hidden;
+}
+
+
+
+
+
